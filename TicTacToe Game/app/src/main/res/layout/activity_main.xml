@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#116961"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tic" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/btn1"
+            android:backgroundTint="#E27070"
+            android:onClick="Check"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+            android:id="@+id/btn2"
+            android:onClick="Check"
+            android:backgroundTint="#E27070"
+            android:layout_marginStart="10dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+            android:id="@+id/btn3"
+            android:backgroundTint="#E27070"
+            android:onClick="Check"
+            android:layout_marginStart="10dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+            android:id="@+id/btn4"
+            android:backgroundTint="#E27070"
+            android:onClick="Check"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#E27070"
+            android:onClick="Check"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#E27070"
+            android:onClick="Check"
+            android:padding="10dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/btn7"
+            android:backgroundTint="#E27070"
+            android:onClick="Check"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+            android:id="@+id/btn8"
+            android:onClick="Check"
+            android:backgroundTint="#E27070"
+            android:layout_marginStart="10dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#E27070"
+            android:onClick="Check"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/regame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Restart Game"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:backgroundTint="#51B154"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        app:srcCompat="@drawable/tictactoe" />
+
+</LinearLayout>
